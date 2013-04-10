@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GameEngine.Gaming;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,7 @@ namespace GameEngine.UI
         /// <param name="Image">Imagen que deberá desplegar el control.</param>
         public Panel(InputHandler InputHandler, ISprite Image) : base(InputHandler, Image)
         {
+            InnerObjects = new List<IUIObject>();
         }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
+using GameEngine.Gaming;
 
 namespace GameEngine.UI
 {
@@ -234,6 +235,11 @@ namespace GameEngine.UI
             set
             {
                 Image.Position = Parent == null ? value : Parent.Position + value;
+                if(InnerObjects != null)
+                    foreach (var item in InnerObjects)
+                    {
+                        item.Position = item.Position;
+                    }
                 ControlRectangle = new Rectangle((int)Image.Position.X, (int)Image.Position.Y, Width, Height);
             }
         }

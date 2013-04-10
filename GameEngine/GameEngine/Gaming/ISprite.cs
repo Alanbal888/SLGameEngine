@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace GameEngine
+namespace GameEngine.Gaming
 {
     /// <summary>
     /// Interfaz de la representación básica de un Sprite

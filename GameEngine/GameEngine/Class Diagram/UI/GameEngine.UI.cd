@@ -73,8 +73,8 @@
   <Interface Name="GameEngine.UI.IUIObject">
     <Position X="3.5" Y="0.5" Width="1.5" />
     <Compartments>
-      <Compartment Name="Properties" Collapsed="true" />
       <Compartment Name="Events" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
       <HashCode>ADAAAAAAJAAEAIAgAAAwQEAAAAAAABAAAQQoABBAAAA=</HashCode>

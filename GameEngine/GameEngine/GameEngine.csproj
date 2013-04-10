@@ -43,8 +43,9 @@
     <XnaCompressContent>true</XnaCompressContent>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FarseerPhysicsXNA">
-      <HintPath>F:\Archivos de Memoria\GameEngine\GameObjectTest\GameObjectTest\bin\x86\Debug\FarseerPhysicsXNA.dll</HintPath>
+    <Reference Include="FarseerPhysicsXNA, Version=3.3.4768.31560, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Farseer Physics Engine 3.3.1 Samples XNA\Farseer Physics Engine 3.3.1 Samples XNA\Farseer Physics Engine 3.3 XNA\bin\x86\Debug\FarseerPhysicsXNA.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
     <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86" />
@@ -63,6 +64,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConvertUnits.cs" />
+    <Compile Include="Gaming\GameSceneManager.cs" />
+    <Compile Include="Gaming\FullColorSprite.cs" />
     <Compile Include="Gaming\GameObject.cs" />
     <Compile Include="Gaming\ISprite.cs" />
     <Compile Include="Gaming\Scene.cs" />
