@@ -4,9 +4,9 @@
     <Position X="3.5" Y="2.25" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
-      <Compartment Name="Properties" Collapsed="true" />
       <Compartment Name="Events" Collapsed="true" />
       <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
       <HashCode>AjQwAAAAJCEGAoRhRAAwSEAAGAAAgBQBAQQpIDBHAUQ=</HashCode>

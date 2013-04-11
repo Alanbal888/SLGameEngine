@@ -17,9 +17,9 @@
     <Position X="7" Y="2.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
       <Compartment Name="Properties" Collapsed="true" />
       <Compartment Name="Methods" Collapsed="true" />
-      <Compartment Name="Events" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
       <HashCode>AAaAAAAIgSAABoAgAAQAAAAEAAAAKACBQAAAgUhDAAU=</HashCode>
@@ -28,7 +28,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="GameEngine.Gaming.GameObject">
-    <Position X="3" Y="2.5" Width="1.5" />
+    <Position X="2.75" Y="2.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
       <Compartment Name="Properties" Collapsed="true" />
@@ -42,7 +42,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="GameEngine.Gaming.Scene">
-    <Position X="5" Y="2.5" Width="1.5" />
+    <Position X="4.75" Y="2.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
       <Compartment Name="Properties" Collapsed="true" />
@@ -55,28 +55,33 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="GameEngine.Gaming.FullColorSprite">
-    <Position X="7.25" Y="4.75" Width="1.5" />
+    <Position X="7" Y="4.5" Width="1.5" />
     <Compartments>
-      <Compartment Name="Fields" Collapsed="true" />
-      <Compartment Name="Properties" Collapsed="true" />
       <Compartment Name="Methods" Collapsed="true" />
       <Compartment Name="Events" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAaAAAACACAABoQgQAQAAAAAAAAAAgAAAAAAgEhCAAU=</HashCode>
+      <HashCode>AAaAAAAAACAABoQgQAQAAAAAAAAAAgAAAAAAgEhCAAU=</HashCode>
       <FileName>Gaming\FullColorSprite.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="GameEngine.Gaming.GameSceneManager">
     <Position X="0.5" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
-      <HashCode>AAYAAEAAAAAABggAAAAAAIAAAAAAAAAAQAAAAAAAAAQ=</HashCode>
+      <HashCode>AQYAAEEAAAAABggAAAAAAIAAAAAAAAAAQAAAAAAAAAQ=</HashCode>
       <FileName>Gaming\GameSceneManager.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="GameEngine.IGameObject">
-    <Position X="3" Y="0.5" Width="3.25" />
+    <Position X="2.75" Y="0.5" Width="3.25" />
     <Compartments>
       <Compartment Name="Properties" Collapsed="true" />
       <Compartment Name="Methods" Collapsed="true" />
@@ -87,7 +92,7 @@
     </TypeIdentifier>
   </Interface>
   <Interface Name="GameEngine.Gaming.ISprite">
-    <Position X="7.25" Y="0.5" Width="2" />
+    <Position X="6.75" Y="0.5" Width="2" />
     <Compartments>
       <Compartment Name="Properties" Collapsed="true" />
       <Compartment Name="Methods" Collapsed="true" />

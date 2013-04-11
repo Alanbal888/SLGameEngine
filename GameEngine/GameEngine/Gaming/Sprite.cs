@@ -65,7 +65,11 @@ namespace GameEngine.Gaming
         /// </summary>
         public event EventHandler Finished;
 
+        /// <summary>
+        /// Crea un sprite que manejará la animación 2D.
+        /// </summary>
         /// <param name="textureAsset">Dirección de la textura a cargar.</param>
+        /// <param name="TextureAsset">Dirección de la textura.</param>
         public Sprite(string TextureAsset)
         {
             textureAsset = TextureAsset;   //Ponemos la dirección de la imagen para su próxima carga
@@ -192,7 +196,7 @@ namespace GameEngine.Gaming
         }
 
         /// <summary>
-        /// Actualiza el IGameObject.
+        /// Carga el IGameObject.
         /// </summary>
         /// <param name="ContentManager">Manejador de contenidos de XNA.</param>
         public virtual void LoadContent(ContentManager ContentManager)

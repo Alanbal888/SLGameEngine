@@ -6,6 +6,9 @@ using System.Text;
 
 namespace GameEngine.UI
 {
+    /// <summary>
+    /// Panel para la intefaz gráfica en XNA.
+    /// </summary>
     public class Panel : GameEngine.UI.UIObject
     {
         /// <summary>

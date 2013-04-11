@@ -8,6 +8,9 @@ using System.Text;
 
 namespace GameEngine.UI
 {
+    /// <summary>
+    /// Etiqueta para la intefaz gráfica en XNA.
+    /// </summary>
     public class Label : UIObject
     {
         /// <summary>
