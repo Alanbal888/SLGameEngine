@@ -15,7 +15,7 @@ namespace GameEngine.UI
         /// <summary>
         /// Manejador por default.
         /// </summary>
-        private InputHandler InputHandler;
+        protected InputHandler InputHandler;
         /// <summary>
         /// Rectangulo que rodea al control.
         /// </summary>
