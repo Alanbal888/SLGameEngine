@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameEngineTest.UITests", "GameEngineTest.UITests\GameEngineTest.UITests\GameEngineTest.UITests.csproj", "{90B6F1D1-DC45-4542-B0FC-7153C2CDB3D3}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "GameEngineTest.UITestsContent", "GameEngineTest.UITests\GameEngineTest.UITestsContent\GameEngineTest.UITestsContent.contentproj", "{8C80E751-F32F-44E2-BC28-89D1F633FA01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameEngineTest.UITestsContent", "GameEngineTest.UITests\GameEngineTest.UITestsContent\GameEngineTest.UITestsContent.contentproj", "{8C80E751-F32F-44E2-BC28-89D1F633FA01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,5 +20,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
 	EndGlobalSection
 EndGlobal
